@@ -12,28 +12,29 @@
 	crossorigin="anonymous">
 </head>
 <body>
-<form class="contact_form" action="update" id="contact_form" method="post" >
-<div>
-<ul>
-<li> <h2>Registro de Empleados</h2> <span class="required_notification">* Datos requeridos</span> </li>
-<li> <label for = "codigo">Codigo:</label> 
+<form class="contact_form mt-5" action="update" id="contact_form" method="post" >
+<div class="container">
+<div class="row justify-content-center align-items-center">
+<ul  class="list-group ml-5 mr-5">
+<li class="list-group-item"> <h2>Registro de Empleados</h2> <span class="required_notification">* Datos requeridos</span> </li>
+<li class="list-group-item"> <label for = "codigo">Codigo:</label> 
 <input type="text" name="codigo"  value="<c:out value='${empleado.codigo}' />" required/> </li>
-<li> <label for = "cedula">Cedula:</label> 
+<li class="list-group-item"> <label for = "cedula">Cedula:</label> 
 <input type="text" name="cedula"  value="<c:out value='${empleado.cedula}' />"required/> </li>
-<li> <label for = "name">Nombre:</label> 
+<li class="list-group-item"> <label for = "name">Nombre:</label> 
 <input type="text" name="nombre"  value="<c:out value='${empleado.nombre}' />" required/> </li>
-<li> <label for = "fechanac">Fecha Nacimiento:</label> 
+<li class="list-group-item"> <label for = "fechanac">Fecha Nacimiento:</label> 
 <input type="Date" name="fechaNacimiento"  value="<c:out value='${empleado.fechanacimiento}' />"  required/> </li>
-<li> <label for = "fechaingreso">Fecha Ingreso:</label> 
+<li class="list-group-item"> <label for = "fechaingreso">Fecha Ingreso:</label> 
 <input type="Date" name="fechaIngreso"  value="<c:out value='${empleado.fechaingreso}' />" required/> </li>
-<li> <label for = "fecharet">Fecha Retiro:</label> 
+<li class="list-group-item"> <label for = "fecharet">Fecha Retiro:</label> 
 <input type="Date" name="fechaRetiro" value="<c:out value='${empleado.fecharetiro}' />" required/> </li>
-<li> <button class="submit" type="submit">Registrar</button>
+<li class="list-group-item"> <button class="submit" type="submit">Registrar</button>
 
 
 </ul>
 </div>
-
+</div>
 </form>
 
 </body>

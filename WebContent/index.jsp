@@ -17,6 +17,10 @@
 			role="button" aria-pressed="true">Buscar Empleado</a>
 		<a href="<%=request.getContextPath()%>/new" class="btn btn-secondary btn-lg active"
 			role="button" aria-pressed="true">Registrar Empleado</a>
+			
+		<a href="<%=request.getContextPath()%>/listar" class="btn btn-secondary btn-lg active"
+			role="button" aria-pressed="true">listar Empleados</a>
 	</div>
+	
 </body>
 </html>

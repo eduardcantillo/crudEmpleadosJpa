@@ -12,28 +12,30 @@
 	crossorigin="anonymous">
 </head>
 <body>
-<form class="contact_form" action="insert" id="contact_form" method="post" >
-<div>
-<ul>
-<li> <h2>Registro de Empleados</h2> <span class="required_notification">* Datos requeridos</span> </li>
-<li> <label for = "codigo">Codigo:</label> 
+<form class="contact_form mt-5" action="insert" id="contact_form" method="post" >
+<div class="container">
+<div class="row justify-content-center align-items-center">
+<ul class="list-group ml-5 mr-5">
+<li class="list-group-item"> <h2>Registro de Empleados</h2> <span class="required_notification">* Datos requeridos</span> </li>
+<li class="list-group-item"> <label for = "codigo">Codigo:</label> 
 <input type="text" name="codigo"   required/> </li>
-<li> <label for = "cedula">Cedula:</label> 
+<li class="list-group-item"> <label for = "cedula">Cedula:</label> 
 <input type="text" name="cedula"  required/> </li>
-<li> <label for = "name">Nombre:</label> 
+<li class="list-group-item"> <label for = "name">Nombre:</label> 
 <input type="text" name="nombre"  required/> </li>
-<li> <label for = "fechanac">Fecha Nacimiento:</label> 
+<li class="list-group-item"> <label for = "fechanac">Fecha Nacimiento:</label> 
 <input type="Date" name="fechaNacimiento"   required/> </li>
-<li> <label for = "fechaingreso">Fecha Ingreso:</label> 
+<li class="list-group-item"> <label for = "fechaingreso">Fecha Ingreso:</label> 
 <input type="Date" name="fechaIngreso"   required/> </li>
-<li> <label for = "fecharet">Fecha Retiro:</label> 
+<li class="list-group-item"> <label for = "fecharet">Fecha Retiro:</label> 
 <input type="Date" name="fechaRetiro"required/> </li>
-<li> <button class="submit" type="submit">Registrar</button>
+<li class="list-group-item"> <button class="submit" type="submit">Registrar</button>
 
 
 </ul>
-</div>
 
+</div>
+</div>
 </form>
 
 </body>
